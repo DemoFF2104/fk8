@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Домашняя работа номер 7">
+	<meta name="keywords" content="домашняя работа">
+	<!-- Favicon -->
+	<link rel="icon" href="https://image.flaticon.com/icons/svg/1197/1197414.svg" type="image/x-icon">
+	<link rel="shortcut icon" href="https://image.flaticon.com/icons/svg/1197/1197414.svg" type="image/x-icon">
+	<title>Fedorov_Konstantin_Diplom</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- Bootstrap Reboot CSS -->
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<link rel="stylesheet" href="css/preloader.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div id="page-preloader">
+		<div class="cssload-preloader cssload-loading">
+			<span class="cssload-slice"></span>
+			<span class="cssload-slice"></span>
+			<span class="cssload-slice"></span>
+			<span class="cssload-slice"></span>
+			<span class="cssload-slice"></span>
+			<span class="cssload-slice"></span>
+		</div>
+	</div>
+	<header class="header" id="header">
+		<div class="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="col-5 col-sm-6 col-md-8 col-lg-4">
+						<a href="index.html" class="main-link">
+							<img src="img/Лого.png" alt="logo" class="logo">
+						</a>
+					</div>
+					<div class="col-lg-6 d-none d-lg-block menu-collapse">
+						<nav>
+							<ul class="menu d-flex justify-content-lg-between justify-content-xl-around">
+								<li class="menu__item">
+									<a href="about.html">
+										О компании
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#">
+										Пресс-центр
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="services.html">
+										Услуги
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#">
+										Отрасли
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="contacts.html">
+										Контакты
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-5 offset-sm-1 offset-md-0 col-sm-4 col-md-3 col-lg-2 ">
+						<a href="#" class="header__call call ml-auto button">
+							<i class="fas fa-phone">
+								
+							</i>
+							<span>
+								Заказать звонок
+							</span>
+						</a>
+					</div>
+					<div class="col-1 d-lg-none d-flex align-items-center justify-content-center">
+						<a href="#" class="menu-open">
+							<i class="fa fa-bars">
+							</i>
+						</a>					
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="services" id="services">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-2 d-flex align-items-center flex-column d-lg-block">
+						<h1 class="services__title title-inner">
+							Услуги
+						</h1>
+						<ul class="services__nav nav-inner d-flex">
+							<li class="services__item nav-inner__item d-flex">
+								<a href="index.html" class="services__link nav-inner__link">
+									Главная
+								</a>
+							</li>
+							<li class="services__item nav-inner__item d-flex">
+								<a href="#" class="services__link services__link_disabled nav-inner__link nav-inner__link_disabled">
+									Услуги
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-9 offset-lg-1 col-xl-7 offset-xl-3">
+						<ul class="puncts d-flex">
+							<li>
+								<a href="#" class="puncts__item puncts__item_active">
+									<h6 class="puncts__title">
+										Legal
+									</h6>
+									<p class="puncts__text">
+										Юридическое сопровождение
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="puncts__item">
+									<h6 class="puncts__title">
+										Accounting
+									</h6>
+									<p class="puncts__text">
+										Финансовый аутсорсинг
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="puncts__item">
+									<h6 class="puncts__title">
+										Business Consulting
+									</h6>
+									<p class="puncts__text">
+										Бизнес консалтинг
+									</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="lawyer" id="lawyer">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-sm-5 col-md-4 col-lg-3">
+					<div class="circle">
+						<img src="img/Circle__business.png" alt="circle">
+					</div>
+				</div>
+				<div class="col-sm-7 col-md-8 col-lg-5 col-xl-4">
+					<h3 class="lawyer__title">
+						Юридическое сопровождение
+					</h3>
+					<p class="lawyer__text">
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau-dantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+					</p>
+				</div>
+				<div class="d-none d-lg-block col-lg-4 offset-xl-1">
+					<ul class="lawyer__list">
+						<li class="lawyer__item">
+							<a href="#">
+								Подкатегория услуг первая
+							</a>
+						</li>
+						<li class="lawyer__item">
+							<a href="#">
+								Вторая подкатегория
+							</a>
+						</li>
+						<li class="lawyer__item">
+							<a href="#">
+								Маленькая услуга
+							</a>
+						</li>
+						<li class="lawyer__item">
+							<a href="#">
+								Довольно длинная и замысловатая
+							</a>
+						</li>
+						<li class="lawyer__item">
+							<a href="#">
+								Ещё одна
+							</a>
+						</li>
+						<li class="lawyer__item">
+							<a href="#">
+								И ещё одна в конце
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="second-cat" id="second-cat">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="wrap">
+						<h2 class="wrap__title secondary-title">
+							Вторая подкатегория
+						</h2>
+						<p class="wrap__text">
+							But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+						</p>
+						<p class="wrap__text">
+							To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+						</p>
+						<p class="wrap__text">
+							To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+						</p>
+						<p class="wrap__text">
+							Mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+						</p>
+						<p class="wrap__text">
+							To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+						</p>
+						<p class="wrap__text">
+							No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. 
+						</p>	
+					</div>
+					<div class="consultant d-flex flex-column align-items-start d-sm-block">
+						<h6 class="consultant__title">
+							Нужна бесплатная консультация?
+						</h6>
+						<div class="consultant__block d-flex flex-sm-row align-items-center">
+							<a href="#" class="consultant__btn">
+								Оставить заявку
+							</a>
+							<a href="tel:+380487542356" class="consultant__phone">
+								+38 (048) 754-23-56
+							</a>
+						</div>
+						<p class="consultant__text">
+							Наши консультанты свяжутся с Вами максимально быстро и ответят на все интересующие Вас вопросы
+						</p>
+						
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="right-column">
+						<div class="subnavigate">
+							<h4 class="subnavigate__title fourth-title">
+								Навигация
+							</h4>
+							<ul class="subnavigate__list">
+								<li class="subnavigate__item">
+									<a href="#">
+										Подпункт номер один
+									</a>
+								</li>
+								<li class="subnavigate__item">
+									<a href="#">
+										Второй подпункт
+									</a>
+								</li>
+								<li class="subnavigate__item">
+									<a href="#">
+										Третья подкатегория c
+										длинным названием
+									</a>
+								</li>
+								<li class="subnavigate__item">
+									<a href="#">
+										Категория номер четыре
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="comments">
+							<h4 class="comments__title fourth-title">
+								Отзывы
+							</h4>
+							<div class="main-slider">
+								<div class="slide">
+									<img src="img/Valera.png" alt="" class="slide__img">
+									<h5 class="slide__title">
+										Валерий Цукерберг
+									</h5>
+									<p class="slide__text">
+										al exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy
+									</p>
+									<a href="#" class="slide__social">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+								</div>
+								<div class="slide">
+									<img src="img/Valera.png" alt="" class="slide__img">
+									<h5 class="slide__title">
+										Валерий Цукерберг
+									</h5>
+									<p class="slide__text">
+										al exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy
+									</p>
+									<a href="#" class="slide__social">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+								</div>
+								<div class="slide">
+									<img src="img/Valera.png" alt="" class="slide__img">
+									<h5 class="slide__title">
+										Валерий Цукерберг
+									</h5>
+									<p class="slide__text">
+										al exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy
+									</p>
+									<a href="#" class="slide__social">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="links" id="links">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-3">
+					<nav class="offer">
+						<h5 class="offer__title">
+							О компании
+						</h5>
+						<ul class="offer__list">
+							<li class="offer__item">
+								<a href="#">
+									Видение, миссия и ценности
+								</a>
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Преимущества
+								</a>
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Клиенты
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Партнеры
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Контакты
+								</a>	
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-6 offset-lg-1 col-lg-3">
+					<nav class="offer">
+						<h5 class="offer__title">
+							Пресс – центр
+						</h5>
+						<ul class="offer__list">
+							<li class="offer__item">
+								<a href="#">
+									Новости
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Публикации
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Мероприятия
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Консультация эксперта
+								</a>	
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-6 offset-lg-1 col-lg-3">
+					<nav class="offer">
+						<h5 class="offer__title">
+							Услуги
+						</h5>
+						<ul class="offer__list">
+							<li class="offer__item">
+								<a href="#">
+									Legal (Юридическое сопровождение)
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Accounting ( Финансовый аутсорсинг)
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Business Consulting (Бизнес консалтинг)
+								</a>	
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<nav class="offer offer_mg">
+						<h5 class="offer__title">
+							Отрасли
+						</h5>
+						<ul class="offer__list">
+							<li class="offer__item">
+								<a href="#">
+									Аграрный сектор
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Внешнеэкономическая деятельность
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									ИT – бизнес
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Оптовая и розничная торговля
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Сфера услуг
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Транспорт и Логистика
+								</a>	
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-6 col-lg-4 offset-lg-1">
+					<nav class="offer offer_mg">
+						<h5 class="offer__title">
+							Образовательный центр
+						</h5>
+						<ul class="offer__list">
+							<li class="offer__item">
+								<a href="#">
+									Про Образовательный Центр
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Бизнес-тренинги, семинары, круглые столы
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Преимущества
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Alumni
+								</a>	
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<nav class="offer offer_mg">
+						<h5 class="offer__title">
+							Соц. предпринимательство
+						</h5>
+						<ul class="offer__list">
+							<li class="offer__item">
+								<a href="#">
+									Социальная миссия
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Проекты
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Партнеры 
+								</a>	
+							</li>
+							<li class="offer__item">
+								<a href="#">
+									Консультация эксперта
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 d-sm-flex align-items-sm-center d-lg-block col-lg-4">
+					<img src="img/Icon__footer.png" alt="logo" class="logo-footer">
+				</div>
+				<div class="col-md-4 col-lg-3 d-sm-block d-flex flex-column align-items-center">
+					<p class="information information_long">
+						Вы хотите сотрудничать с нами?<br>
+						У Вас есть идеи или предложения? 
+						Свяжитесь с нами прямо сейчас!
+					</p>
+					<p class="information information_short">
+						65000,<br>
+						Украина, г. Одесса
+						Ул Базарная, 36
+					</p>
+				</div>
+				<div class="col-md-4 col-lg-2 d-sm-block d-flex flex-column align-items-center">
+					<div class="coach d-flex">
+						<div class="coach__logo">
+							W
+						</div>
+						<p class="coach__text">
+							Дизайн и разработка
+							<span>
+								Коучинг по верстке
+							</span>
+						</p>
+					</div>
+					<div class="copy">
+						<ul class="copy__list">
+							<li class="copy__item">
+								&copy; Все права защищены
+							</li>
+							<li class="copy__item copy__item_strong">
+								<span>
+									LAB
+								</span>
+								Consulting
+							</li>
+							<li class="copy__item copy__item_link">
+								<a href="#">
+									lab-consult.com
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="d-sm-none d-lg-block col-lg-2 offset-lg-1">
+					<a href="#" class="footer__call call ml-auto button">
+						<i class="fas fa-phone">
+							
+						</i>Заказать звонок
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div style="display: none;">
+        <div class="box-modal" id="exampleModal">
+            <div class="box-modal_close arcticmodal-close">x</div>
+            <form action="#" class="form form-popup d-flex flex-column">
+                <h4 class="form__title">
+                    Заказать обратный звонок
+                </h4>
+                <p class="form__additional">
+                    Заполните форму и мы свяжемся с вами как можно скорее. До скорой встречи
+                </p>
+                <input type="text" name="name" placeholder="Имя" class="form__input">
+                <input type="email" name="email" placeholder="E-mail" class="form__input">
+                <input type="tel" name="phone" placeholder="Телефон" class="form__input">
+                <button class="form__call button" type="submit">
+                	<i class="fas fa-phone"></i>
+                	Заказать звонок
+                </button>
+            </form>
+        </div>
+    </div>
+	<script src="js/jquery-3.4.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/parallax-bg.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
+	
